@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanha do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Foto-M.png" type="image/png">
+        <img src="imagens/Foto-G.png" alt="imagem flexivle">
+    </picture>
+
+    <h1>Reproduzindo auddio</h1>
+    <p>vamos aprender a reproduzer audio no site</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="HighNoon-TrackTribe.mp3" type="audio/mpeg"><!-- (mp3)audio/mpeg  audio/ogg audio/wav-->
+        
+    </audio>
+<p>Falha em carregar audio, por favor tente recarregar a pagina. Ou <a href="media/HighNoon-TrackTribe.mp3" download="media/HighNoon-TrackTribe.mp3" type="audio/mpeg">clique aqui</a> para baixar o arquivo .mp3</p>
+</body>
+</html>

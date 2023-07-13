@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    font: normal 1em Arial, Verdana, sans-serif;
+    text-align: left;
+    background-color: rgb(39, 39, 39);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-indent: 30px;
+}

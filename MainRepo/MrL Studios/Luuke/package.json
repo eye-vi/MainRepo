@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@discordjs/core": "^0.6.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "name": "luuke",
+  "description": "A Simple discord bot or traiining JS",
+  "version": "1.0.0",
+  "main": "luuke.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-IV/Luuke.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Felipe R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-IV/Luuke/issues"
+  },
+  "homepage": "https://github.com/Coder-IV/Luuke#readme"
+}

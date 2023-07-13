@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: none;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+}
+
+#princ {
+    padding-top: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.755);
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+div#buttom {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-size: medium;
+    font-weight: 600;
+    cursor: none;
+}
+
+#seletor-do-elemento {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3bdc73;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+
+.a1 {
+    background-color: rgba(0, 0, 0, 0.718);
+    margin: auto;
+    border-radius: 20px;
+    max-width: 460px;
+    min-width: 160px;
+}
+
+.a1>header {
+    font-size: large;
+    font-weight: 600;
+}
+
+.b {
+    background-color: rgba(0, 0, 0, 0.718);
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.b>header {
+    font-size: large;
+    font-weight: 600;
+}
+
+.sect2 {
+    display: flex;
+    justify-content: center;
+}
+
+#b2 {
+    margin-left: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.fallback-image {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #video {
+        display: none;
+    }
+
+    .fallback-image {
+        display: block;
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+section div {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    cursor: none;
+}
+
+main {
+    background-color: rgb(17, 17, 17);
+    margin: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.167);
+    padding: 0 10px;
+}
+
+@media (min-width: 600px) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        min-width: 100px;
+    }
+}

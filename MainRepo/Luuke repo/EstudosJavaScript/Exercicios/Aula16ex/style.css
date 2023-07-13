@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1709D6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+div#alert {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #010f94;
+    max-width: 500px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+p#p {
+    font-size: large;
+    font-weight: 600;
+}
+
+div#nums {
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: -10px;
+}
+
+input#numero {
+    border-radius: 20px;
+    font-size: larger;
+    width: 50px;
+}
+
+section {
+    color: white;
+    background-color: #010f94;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.262);
+    text-align: center;
+}
+
+.botao {
+    font-size: large;
+    border-radius: 20px;
+    font-weight: 550;
+    height: 35px;
+    color: white;
+    background-color: #0031b7;
+}
+
+input#bot {
+    margin-top: -20px;
+}
+
+input#fixNb {
+    background-color: #1f2b9e;
+    width: 70px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+p#res {
+    background-color: #010f94;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 400px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+select {
+    overflow: hidden;
+    width: 175px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

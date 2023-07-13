@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'bochan';
+    src: url('fantes/Bochan\ Serif.ttf') format('truetype');
+}
+
+body {
+    font-family: 'bochan', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}

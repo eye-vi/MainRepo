@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    16px normalmente é = 1em
+    */
+    /*
+    shorthand font
+    - font-style -> font-weight -> font-size -> fant-family
+
+    Ex:
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    */
+    font-size: 1em;
+    text-align: justify;
+}
+
